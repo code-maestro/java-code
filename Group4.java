@@ -23,12 +23,17 @@ public class Group4 {
             int arrayNum[] = new int[num];
 
             System.out.println("Please enter the array elements\n");
+            
+            // Loop to store the array elements by comparing them with the array size entered.
 
             for (int a = 0; a < arrayNum.length; a++) {
 
                 arrayNum[a] = Obj.nextInt();
             }
               
+            
+            
+            // statements for the user to input the array index so they can access the array element at that index.. 
             
             System.out.println("Please enter the array index you want");
 
